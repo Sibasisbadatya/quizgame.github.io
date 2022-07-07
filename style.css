@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@100&family=Allison&family=Arimo&family=Bad+Script&family=Bebas+Neue&family=Bubblegum+Sans&family=Caveat&family=Cookie&family=Dancing+Script&family=Josefin+Sans&family=Kdam+Thmor+Pro&family=Lobster+Two&family=Montserrat:wght@100&family=Pathway+Gothic+One&family=Racing+Sans+One&family=Style+Script&family=Teko:wght@300&family=Water+Brush&display=swap');
+html{
+    margin: 0px;
+    padding: 0px;
+    font-size: 62.5%;
+    overflow-y: hidden;
+}
+body{
+    background-color: #baf2f2;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.div1{
+    background-color:#e7bef6;
+    height: 50vh;
+    width: 55vw;
+    padding: 10px;
+}
+.option{
+    font-size: 2rem;
+    margin-top:10px;
+    font-family: 'Arimo', sans-serif;
+}
+#getque{
+font-size: 3rem;
+font-family: 'Montserrat', sans-serif;
+}
+button{
+    margin: 10px;
+    width: 30%;
+    height: 10%;
+    background-color: #1289A7;
+    text-align: center;
+}
+
+
+
+@media only screen and (max-width:760px)
+{
+    .div1{
+        background-color:#e7bef6;
+        height: 40vh;
+        width: 55vw;
+        padding: 10px;
+    } 
+    #getque{
+        font-size: 2.5rem;
+        }
+        .option{
+            font-size: 1.5rem;
+            margin-top:10px;
+        }
+}
+@media only screen and (max-width:600px)
+{
+    .div1{
+        background-color:#e7bef6;
+        height: 35vh;
+        width: 70vw;
+        padding: 10px;
+    } 
+    #getque{
+        font-size: 2rem;
+        }
+        .option{
+            font-size: 1rem;
+            margin-top:8px;
+        }
+}
+@media only screen and (max-width:432px)
+{
+    .div1{
+        background-color:#e7bef6;
+        height: 30vh;
+        width: 85vw;
+        padding: 10px;
+    } 
+    #getque{
+        font-size: 1.5rem;
+        }
+        .option{
+            font-size: 1rem;
+            margin-top:8px;
+        }
+}
+@media only screen and (max-width:320px)
+{
+    #getque{
+        font-size: 1.5rem;
+        }
+        .option{
+            font-size: 1rem;
+            margin-top:8px;
+        }
+}
